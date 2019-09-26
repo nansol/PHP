@@ -1,0 +1,35 @@
+Playground: chess board
+Create a chess board using two inline for loops within each other.
+
+The board has 8 rows, each with 8 squares. The first row begins with a white square, the second with a black square.
+
+Each square will have a class white or black.
+
+You can use the following HTML & CSS:
+
+.board .row {
+    overflow: hidden;
+}
+.board .row > div {
+    float: left;
+    width: 3em;
+    height: 3em;
+}
+.board .black {
+    background-color: #000000;
+}
+<div class="board">
+    <div class="row">
+        <div class="white"></div>
+        <div class="black"></div>
+    </div>
+    <div class="row">
+        <div class="black"></div>
+        <div class="white"></div>
+    </div>
+</div>
+Remember that a number is even when it's modulus of 2 is 0 and odd when it's modulus of 2 is 1.
+
+When you think you're done, find any way to add this king to field B-4:
+
+http://classes.codingbootcamp.cz/assets/classes/33/pieces/whites/king.png

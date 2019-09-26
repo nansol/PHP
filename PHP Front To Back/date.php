@@ -54,5 +54,3 @@ echo date('m-d-Y h:i:s-a', $timestamp4);
 echo '<br>';
 $timestamp5 = strtotime('+2 Months');
 echo date('m-d-Y h:i:s-a', $timestamp5); 
-
-

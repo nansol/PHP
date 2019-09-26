@@ -1,9 +1,9 @@
 <?php          
 
-//Signle line comments
+//Single line comment
 
 /*Block 
-comments*/
+comment*/
 
 
 //Variables
